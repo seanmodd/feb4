@@ -1,5 +1,7 @@
 YouTube Video: https://www.youtube.com/watch?v=EnIRyNT2PMI
 GitHub Repo: https://github.com/dmalvia/React_Redux_ToolKit_Movie_App
+My personal GitHub Repo with this already: https://github.com/seanmodd/redux-toolkit-movie-app
+The path: /Users/seanmodd/Dev/2022/GitHubYouTube/redux-toolkit-movie-app
 # Redux Actions
 ***rdac* - Redux Toolkit: Create Action (also in reducer)**
 ```

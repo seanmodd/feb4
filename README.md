@@ -1,5 +1,5 @@
-YouTube Video: https://www.youtube.com/watch?v=0W6i5LYKCSI
-GitHub Reop: https://github.com/dmalvia/React_Redux_Tutorial
+YouTube Video: https://www.youtube.com/watch?v=EnIRyNT2PMI
+GitHub Repo: https://github.com/dmalvia/React_Redux_ToolKit_Movie_App
 # Redux Actions
 ***rdac* - Redux Toolkit: Create Action (also in reducer)**
 ```

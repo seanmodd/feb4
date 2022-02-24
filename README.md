@@ -1,6 +1,6 @@
 # React Redux Tutorial For Beginners | Redux Toolkit Tutorial 2021
-YouTube Video: https://www.youtube.com/watch?v=k68j9xlbHHk&t=2546s
-GitHub Repo: https://github.com/machadop1407/react-redux-toolkit-tutorial
+YouTube Video: https://www.youtube.com/watch?v=zHYkA1AycPs&list=PLb0ENDTKBLSUnU4SwonpI1Q94yPlNFkD_&index=6
+GitHub Repo: https://github.com/dmalvia/React_Context_Api_Tutorial
 # Redux Actions
 ***rdac* - Redux Toolkit: Create Action (also in reducer)**
 ```

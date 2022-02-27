@@ -1,8 +1,33 @@
-import { configureStore } from "@reduxjs/toolkit";
-import logger from "redux-logger";
-import reducer from "./reducer";
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-export default configureStore({
-  reducer,
-  middleware: [logger],
+const initialState = {
+  value: 0,
+};
+
+export const counterSlice = createSlice({
+  name: "counter",
+  initialState,
+  reducers: {
+    increment: (state) => {
+      state.value += 1;
+    },
+    decrement: (state) => {
+      state.value -= 1;
+    },
+    incrementByAmount: (state, action) => {
+      state.value += action.payload;
+    },
+    reset: (state) => {
+      state.value = 0;
+    },
+  },
+});
+
+export const { increment, decrement, incrementByAmount, reset } =
+  counterSlice.actions;
+
+export const store = configureStore({
+  reducer: {
+    counter: counterSlice.reducer,
+  },
 });
